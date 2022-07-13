@@ -1,6 +1,8 @@
 # Welcome to the Anythink Market repo
 
-To start the app use Docker. It will start both frontend and backend, including all the relevant dependencies, and the db.
+To start the app use [Docker](https://docs.docker.com/get-docker/). After installing Docker, you can verify that it is installed by running `docker -v` in your terminal. When you are ready to start the app, run `docker-compose up`. It will start both frontend and backend, including all the relevant dependencies, and the db.
+
+To test that the backend is running, go to [http://localhost:3000/api/ping](http://localhost:3000/api/ping). If everything is working, test the frontend by going to [http://localhost:3001/register](http://localhost:3001/register) and creating a new user.
 
 Please find more info about each part in the relevant Readme file ([frontend](frontend/readme.md) and [backend](backend/README.md)).
 
